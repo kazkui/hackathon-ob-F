@@ -7,8 +7,6 @@ function getValue() {
 // フォームに値が設定されている場合にポップアップを表示する
 function popupValue() {
     const text1Value = getValue();
-
-    alert(11111111);
     // ここに条件分岐を記入する
 
     if(textValue !== ''){
