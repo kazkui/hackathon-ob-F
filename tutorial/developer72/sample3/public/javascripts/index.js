@@ -19,7 +19,7 @@ function sendMessage() {
                     'このメッセージはすべてのクライアントに送信されます。');
 
     // メッセージ入力イベント（event3）を送信する
-    socket.emit(event3, message);
+    socket.emit('event3', message);
 }
 
 // メッセージ表示イベント（event4）を受信する
